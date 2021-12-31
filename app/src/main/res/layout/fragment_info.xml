@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="A Correção do FGTS pode beneficiar mais de 45 milhões de trabalhadores"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Os trabalhadores poderão recuperar as perdas do FGTS desde 1999"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          O Supremo Tribunal Federal (STF) deve decidir o recálculo retroativo do dinheiro dos trabalhadores depositado no FGTS (Fundo de Garantia por Tempo de Serviço) desde o ano de 1999, substituindo assim o índice da Taxa Referencial (TR) pelo Índice Nacional de Preços ao Consumidor (INPC) ou pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA).\n
+          Assim, tudo sugere que logo o STF determinará a possibilidade de revisão dos saldos do FGTS, que podem ter perdas acima dos 100% desde 1999, pelas estimativas de diversos órgãos não governamentais que você pode encontrar facilmente pela internet, resguardando, antes tarde do que nunca, os nossos direitos, todos nós trabalhadores brasileiros.\n
+          As perdas ocorrem até hoje porque a correção aplicada pelo índice da Taxa de Referencial (TR) sobre os saldos depositados no FGTS fica sempre abaixo da inflação real medido mensalmente pelo Instituto Brasileiro de Geografia e Estatística (IBGE) através dos índices INPC e IPCA.\n
+          Para que a correção real do FGTS seja justa, deveria ter sido feita pelo INPC ou IPCA, pois estes indicadores refletem de forma mais justa a recomposição da inflação e o poder de compra do trabalhador."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Quem tem direito?"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Todos os trabalhadores que tenham ou até tiveram algum saldo em seu FGTS desde 1999, aposentados ou não, têm o direito de solicitar a revisão do saldo do FGTS.\n          Se você tiver um parente falecido que teve saldo nesse período os herdeiros podem solicitar a revisão também."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Como devo solicitar a revisão do meu FGTS?"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Para solicitar a revisão do seu FGTS é necessário procurar o sindicato da classe ou um advogado de sua confiança para melhor explicar o caso e representar seus interesses, caso você se enquadrar no caso têm-se que entrar com uma ação na justiça solicitando a revisão dos saldo no período ou aguardar a decisão do STF."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Quais documentos preciso ter em mãos?"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Cópias do RG, CPF, comprovante de endereço, PIS/PASEP, cópia da Carteira de Trabalho e Previdência Social (CTPS), Extrato do FGTS emitido pela Caixa Econômica Federal, e/ou Carta de Concessão do Benefício – este último apenas para os aposentados.\n"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+    </LinearLayout>
+</ScrollView>

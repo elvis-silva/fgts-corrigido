@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!--ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        tools:ignore="UselessParent"-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ccontainer">
+    </LinearLayout>
+    <!--/ScrollView-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#e1e1e1" />
+    </LinearLayout>
+
+    <!--RelativeLayout
+        android:id="@+id/acc_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.software.shell.fabMain.ActionButton
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            fabMain:type="DEFAULT"
+            fabMain:button_color="@color/fab_material_blue_500"
+            fabMain:button_colorPressed="@color/fab_material_blue_900"
+            fabMain:image="@drawable/fab_plus_icon"
+            fabMain:image_size="24dp"
+            fabMain:shadow_color="#757575"
+            fabMain:shadow_radius="2.5dp"
+            fabMain:shadow_xOffset="1.5dp"
+            fabMain:shadow_yOffset="3.0dp"
+            fabMain:button_colorRipple="@color/fab_material_blue_500"
+            fabMain:rippleEffect_enabled="false"
+            fabMain:shadowResponsiveEffect_enabled="true"
+            fabMain:show_animation="@anim/fab_fade_in"
+            fabMain:hide_animation="@anim/fab_fade_out"/>
+    </RelativeLayout-->
+
+</RelativeLayout>

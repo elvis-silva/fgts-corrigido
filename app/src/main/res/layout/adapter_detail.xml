@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dt_header"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text=""
+        android:padding="@dimen/nav_header_vertical_spacing"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingBottom="@dimen/nav_header_vertical_spacing"
+            android:text="Janeiro"
+            android:id="@+id/dt_month"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:text="Depósito"
+                android:textSize="11sp"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:text="R$ 9.999,99"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/dt_deposito"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:text="Correção TR"
+                android:textSize="11sp"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:text="R$ 9.999,99"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/dt_tr"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:text="Correção INPC"
+                android:textSize="11sp"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:text="R$ 9.999,99"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/dt_inpc"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:text="Perdas"
+                android:textSize="11sp"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:text="R$ 9.999,99"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:id="@+id/dt_perdas"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

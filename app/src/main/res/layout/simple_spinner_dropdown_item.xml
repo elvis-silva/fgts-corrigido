@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:padding="@dimen/activity_vertical_margin"
+    android:textColor="@color/liability_fgd"
+    android:background="@drawable/adapter_bg"
+    android:maxLines="1" />
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/simple_spdditem_display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:textColor="@color/simple_spitem"
+        />
+    <TextView
+        android:id="@+id/simple_spitem_display"
+        android:layout_width="fill_parent"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:layout_height="40dp"
+        android:visibility="gone"/>
+
+</LinearLayout-->

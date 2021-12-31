@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="COMO USAR"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          O que peciso ter em mãos para começar?"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          - EXTRATO COMPLETO DO FGTS ou\n          - HOLERITES do período que deseja calcular."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Como consigo o EXTRATO COMPLETO DO FGTS?"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Vá a qualquer agência da CAIXA ECONÔMICA FEDERAL com o seu Cartão do PIS e RG, solicite então o EXTRATO COMPLETO DO FGTS."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Vamos começar?"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Com os HOLERITES:\n\n          - Na tela inicial do aplicativo tecle em [INICIAR],\n          - Escolha o primeiro mês, o primeiro ano, o último mês e o último ano conforme for solicitado, ao final será montado o período desejado,\n          - Agora com os HOLERITES em mãos você vai preenchendo cada campo com os valores do FGTS DO MÊS que está no HOLERITE de cada mês, ao preencher todos os campos tecle em [CALCULAR],\n          - Pronto agora você já pode ver a simulação de todo o cálculo corrigido pela TR, pelo INPC e a diferença entre elas.\n          - Se desejar você pode teclar em [SALVAR] para gravar o cálculo e poder conferir com seu advogado mais tarde."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Com o EXTRATO COMPLETO DO FGTS:\n\n          - Na tela inicial do aplicativo tecle em [INICIAR],\n          - Escolha o primeiro mês, o primeiro ano, o último mês e o último ano conforme for solicitado, ao final será montado o período desejado,\n          - Agora com o EXTRATO COMPLETO DO FGTS em mãos você vai preenchendo cada campo com os valores do DEPÓSITO DO MÊS encontrado no extrato, ao preencher todos os campos tecle em [CALCULAR],\n          - Pronto agora você já pode ver a simulação de todo o cálculo corrigido pela TR, pelo INPC e a diferença entre elas.\n          - Se desejar você pode teclar em [SALVAR] para gravar o cálculo e poder conferir com seu advogado mais tarde."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="          Tabelas atualizadas dos índices TR e INPC:\n\n          - Puxando a aba de opções á esquerda do Tablet ou Smartphone você vai encontrar várias opções de navegação, entre elas estão [TABELA INPC] e [TABELA TR] que são para simples conferência dos valores mensais desses índices atualizados mensalmente pelo IBGE (INPC) e pelo Banco Central do Brasil (TR)."
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dúvidas, sugestões e críticas ao e-mail:"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="elviscarlossouza@gmail.com\n"
+            android:layout_margin="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:autoLink="email"
+            android:clickable="true"
+            android:gravity="center" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,803 @@
+<resources>
+
+    <string name="app_name">FGTS Corrigido</string>
+    <string name="hello_world">Se sou visto logo existo!</string>
+    <string name="title_section1">Cálculo</string>
+    <!--string name="title_section2">Carreira</string-->
+    <string name="title_section2">Tabela INPC</string>
+    <string name="title_section3">Tabela TR</string>
+    <string name="title_section4">Como usar</string>
+    <string name="title_section5">Informações</string>
+    <string name="title_section6">Contato</string>
+    <string name="title_section7">Facebook</string>
+    <string name="title_section8">Mais Apps</string>
+    <string name="action_help">Ajuda</string>
+    <string name="action_about">Sobre</string>
+    <string name="action_rate">Avalie-me</string>
+    <string name="hello">Hello app!</string>
+    <string name="title_activity_fgts">F G T S</string>
+    <string name="title_activity_month_list">Selecione o mês</string>
+    <string name="title_activity_year_list">Selecione o ano</string>
+    <string name="title_activity_rssfeed">RssfeedActivity</string>
+    <string name="title_activity_detail">Detalhe da Atividade</string>
+    <string name="title_activity_expandable_list">Lista Expandível</string>
+    <string name="title_expandable_list_main">Expandível Main</string>
+    <string name="more_apps_info">Conheça nossos demais aplicativos no GooglePlay.</string>
+    <string name="title_xml_demo">XML DEMO</string>
+    <string name="gogojohnny_name">Go!Go!Johnny</string>
+    <string name="flightdrone_name">FlightDrone</string>
+    <string name="lista_de_compras_name">ListaDeCompras</string>
+    <string name="embaixadinhas_name">Embaixadinhas</string>
+    <string name="btn_calcule">Calcular</string>
+    <string name="btn_calcule_total">Calcular Tudo</string>
+    <string name="btn_calcule_tr">Calcular TR</string>
+    <string name="btn_calcule_inpc">Calcular INPC</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_return">Retornar</string>
+    <string name="btn_add_period">Iniciar</string>
+    <string name="btn_tabela_tr">Tabela TR</string>
+    <string name="btn_tabela_inpc">Tabela INPC</string>
+    <string name="btn_yes">\  \  \ Sim\  \  \ </string>
+    <string name="btn_no">\  \  \ Não\  \  \ </string>
+    <string name="zero">0</string>
+    <string name="pis_coment">DIGITE ABAIXO OS VALORES DEPOSITADOS MENSALMENTE DE ACORDO COM SEU EXTRATO DO PIS</string>
+    <string name="choose_month">Escolha o mês</string>
+    <string name="choose_years">Escolha o ano</string>
+    <string name="janeiro">Janeiro</string>
+    <string name="fevereiro">Fevereiro</string>
+    <string name="marco">Março</string>
+    <string name="abril">Abril</string>
+    <string name="maio">Maio</string>
+    <string name="junho">Junho</string>
+    <string name="julho">Julho</string>
+    <string name="agosto">Agosto</string>
+    <string name="setembro">Setembro</string>
+    <string name="outubro">Outubro</string>
+    <string name="novembro">Novembro</string>
+    <string name="dezembro">Dezembro</string>
+    <string name="ano1999">1999</string>
+    <string name="ano2000">2000</string>
+    <string name="ano2001">2001</string>
+    <string name="ano2002">2002</string>
+    <string name="ano2003">2003</string>
+    <string name="ano2004">2004</string>
+    <string name="ano2005">2005</string>
+    <string name="ano2006">2006</string>
+    <string name="ano2007">2007</string>
+    <string name="ano2008">2008</string>
+    <string name="ano2009">2009</string>
+    <string name="ano2010">2010</string>
+    <string name="ano2011">2011</string>
+    <string name="ano2012">2012</string>
+    <string name="ano2013">2013</string>
+    <string name="ano2014">2014</string>
+    <string name="choose_period">Escolha um período</string>
+    <string name="btn_confirm">\  \  \  \  \ Ok\  \  \  \  \ </string>
+    <string name="year">Ano</string>
+    <string name="indice_inpc">Í N D I C E \  \  \  \  \  \  I N P C</string>
+    <string name="indice_tr">Í N D I C E \  \  \  \  \  \  T R</string>
+    <string name="preencha_pis">Preencha os campos conforme seu extrato do pis</string>
+    <string name="digite_valor">Digite o valor desejado: </string>
+    <string name="action_saved">Cálculos salvos</string>
+    <string name="name_title">\  \  NOME: </string>
+    <string name="btn_delete">APAGAR</string>
+    <string name="btn_load">Carregar</string>
+    <string name="exit_text">Sair</string>
+    <string name="using_tips">Como usar</string>
+    <string name="loading">Carregando...</string>
+    <string name="salvos_text">Carregar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_message">Carregando. Por favor aguarde...</string>
+    <string name="about_message">\nAplicativo desenvolvido apenas para SIMULAÇÃO DA CORREÇÃO DO FGTS pelos índices TR e INPC desde o ano de 1999 com a finalidade de informar ao trabalhador brasileiro sobre as diferenças aplicadas desses índices na atualização do FGTS.\nEnquanto aguardamos a decisão referente Ação Direta de Inconstitucionalidade (ADI 5090) no Supremo Tribunal Federal (STF) contra dispositivos das Leis 8.036/1990 (artigo 13) e 8.177/1991 (artigo 17) que impõem a correção dos depósitos nas contas vinculadas do FGTS pela TR você pode entrar com um processo contra a Caixa Econômica Federal pedindo a revisão e correção do seu FGTS aplicando o INPC sobre o saldo no período, isso é um direito de todo cidadão brasileiro, afinal o Brasil é um país democrático que permite cada um de nós cobrar os direitos conquistados ao longo de nossa história.\n\nESTEJA CIENTE QUE OS VALORES DOS RESULTADOS MOSTRADOS NESSSE APLICATIVO SÃO VALORES APROXIMADOS E POR ISSO PODEM NÃO ESTAR EXATAMENTE IGUAIS AO EXTRATO DO FGTS.\n\nÉ IMPRESCINDÍVEL CONSULTAR UM ADVOGADO OU O SINDICATO PARA MAIS DETALHES.\n\nEsse aplicativo não tem nenhum vínculo com partido político ou órgão governamental ou não governamental, assim a finalidade é meramente informativa assegurada pela Constituição Federal Brasileira artigo 5º inciso IX onde se diz que é livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença.\n\n\nVersão do aplicativo 3.3.0\n\nCriado por Now It Goes Apps\n\n\nAgradecemos por adquirir o aplicativo.\n\n</string>
+
+    <string name="cmsg_busy">Por favor aguarde…</string>
+    <string-array name="months">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+    </string-array>
+    <string name="choose_period_prompt">Informe o período</string>
+    <string name="initial_month_prompt">Mês inicial</string>
+    <string name="final_month_prompt">Mês final</string>
+    <string name="initial_year_prompt">Ano inicial</string>
+    <string name="final_year_prompt">Ano Final</string>
+    <string name="dialog_periodo_dica">Exemplo:\nSe você trabalhou com carteira assinada de Abril de 2004 até
+    Janeiro de 2009 então escolha na primeira linha o mês de Abril e o ano 2004, na segunda linha escolha o mês de
+        Janeiro e o ano 2009.</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="preencha_os_campos_abaixo">Preencha os campos abaixo conforme seu extrato do FGTS</string>
+    <string name="btn_num_7">7</string>
+    <string name="btn_div">/</string>
+    <string name="btn_num_8">8</string>
+    <string name="btn_num_9">9</string>
+    <string name="btn_num_4">4</string>
+    <string name="btn_num_5">5</string>
+    <string name="btn_num_6">6</string>
+    <string name="btn_mul">*</string>
+    <string name="btn_num_1">1</string>
+    <string name="btn_num_2">2</string>
+    <string name="btn_num_3">3</string>
+    <string name="btn_min">-</string>
+    <string name="btn_dot">.</string>
+    <string name="btn_num_0">0</string>
+    <string name="btn_igual">=</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_clean"><![CDATA[<--]]></string>
+    <string name="btn_back">VOLTAR</string>
+    <string name="btn_ok">OK</string>
+    <string name="change_value">Digite o valor</string>
+    <string name="digite_um_nome">Digite um nome</string>
+    <string name="set_name">SALVAR</string>
+    <string name="load_data">CARREGAR CÁLCULO</string>
+    <string name="todo">TODO</string>
+    <string name="about_title">SOBRE</string>
+    <string name="admob_banner_id">ca-app-pub-4768510961285493/2421209564</string>
+    <string name="interstitial_ad_id">ca-app-pub-4768510961285493/7262227962</string>
+    <string name="calcular">Calcular</string>
+    <string name="tabela_inpc">Tabela INPC</string>
+    <string name="tabela_tr">Tabela TR</string>
+    <string name="mais_apps">Mais Apps</string>
+    <string name="mais">Mais</string>
+    <string name="news">NOTÍCIAS</string>
+    <string name="avalie_me">Avalie-me</string>
+    <string name="carregar">Carregar</string>
+    <string name="salvar">Salvar</string>
+    <string name="simular_fgts_corrigido">SIMULAR FGTS CORRIGIDO</string>
+    <string name="about">Sobre</string>
+    <string name="conecte_se">Você precisa estar conectado\n para ver as notícias!</string>
+    <string name="share">Compartilhar</string>
+
+    <string-array name="months_list">
+        <item>jan1999</item>
+        <item>fev1999</item>
+        <item>mar1999</item>
+        <item>abr1999</item>
+        <item>mai1999</item>
+        <item>jun1999</item>
+        <item>jul1999</item>
+        <item>ago1999</item>
+        <item>set1999</item>
+        <item>out1999</item>
+        <item>nov1999</item>
+        <item>dez1999</item>
+        <item>jan2000</item>
+        <item>fev2000</item>
+        <item>mar2000</item>
+        <item>abr2000</item>
+        <item>mai2000</item>
+        <item>jun2000</item>
+        <item>jul2000</item>
+        <item>ago2000</item>
+        <item>set2000</item>
+        <item>out2000</item>
+        <item>nov2000</item>
+        <item>dez2000</item>
+        <item>jan2001</item>
+        <item>fev2001</item>
+        <item>mar2001</item>
+        <item>abr2001</item>
+        <item>mai2001</item>
+        <item>jun2001</item>
+        <item>jul2001</item>
+        <item>ago2001</item>
+        <item>set2001</item>
+        <item>out2001</item>
+        <item>nov2001</item>
+        <item>dez2001</item>
+        <item>jan2002</item>
+        <item>fev2002</item>
+        <item>mar2002</item>
+        <item>abr2002</item>
+        <item>mai2002</item>
+        <item>jun2002</item>
+        <item>jul2002</item>
+        <item>ago2002</item>
+        <item>set2002</item>
+        <item>out2002</item>
+        <item>nov2002</item>
+        <item>dez2002</item>
+        <item>jan2003</item>
+        <item>fev2003</item>
+        <item>mar2003</item>
+        <item>abr2003</item>
+        <item>mai2003</item>
+        <item>jun2003</item>
+        <item>jul2003</item>
+        <item>ago2003</item>
+        <item>set2003</item>
+        <item>out2003</item>
+        <item>nov2003</item>
+        <item>dez2003</item>
+        <item>jan2004</item>
+        <item>fev2004</item>
+        <item>mar2004</item>
+        <item>abr2004</item>
+        <item>mai2004</item>
+        <item>jun2004</item>
+        <item>jul2004</item>
+        <item>ago2004</item>
+        <item>set2004</item>
+        <item>out2004</item>
+        <item>nov2004</item>
+        <item>dez2004</item>
+        <item>jan2005</item>
+        <item>fev2005</item>
+        <item>mar2005</item>
+        <item>abr2005</item>
+        <item>mai2005</item>
+        <item>jun2005</item>
+        <item>jul2005</item>
+        <item>ago2005</item>
+        <item>set2005</item>
+        <item>out2005</item>
+        <item>nov2005</item>
+        <item>dez2005</item>
+        <item>jan2006</item>
+        <item>fev2006</item>
+        <item>mar2006</item>
+        <item>abr2006</item>
+        <item>mai2006</item>
+        <item>jun2006</item>
+        <item>jul2006</item>
+        <item>ago2006</item>
+        <item>set2006</item>
+        <item>out2006</item>
+        <item>nov2006</item>
+        <item>dez2006</item>
+        <item>jan2007</item>
+        <item>fev2007</item>
+        <item>mar2007</item>
+        <item>abr2007</item>
+        <item>mai2007</item>
+        <item>jun2007</item>
+        <item>jul2007</item>
+        <item>ago2007</item>
+        <item>set2007</item>
+        <item>out2007</item>
+        <item>nov2007</item>
+        <item>dez2007</item>
+        <item>jan2008</item>
+        <item>fev2008</item>
+        <item>mar2008</item>
+        <item>abr2008</item>
+        <item>mai2008</item>
+        <item>jun2008</item>
+        <item>jul2008</item>
+        <item>ago2008</item>
+        <item>set2008</item>
+        <item>out2008</item>
+        <item>nov2008</item>
+        <item>dez2008</item>
+        <item>jan2009</item>
+        <item>fev2009</item>
+        <item>mar2009</item>
+        <item>abr2009</item>
+        <item>mai2009</item>
+        <item>jun2009</item>
+        <item>jul2009</item>
+        <item>ago2009</item>
+        <item>set2009</item>
+        <item>out2009</item>
+        <item>nov2009</item>
+        <item>dez2009</item>
+        <item>jan2010</item>
+        <item>fev2010</item>
+        <item>mar2010</item>
+        <item>abr2010</item>
+        <item>mai2010</item>
+        <item>jun2010</item>
+        <item>jul2010</item>
+        <item>ago2010</item>
+        <item>set2010</item>
+        <item>out2010</item>
+        <item>nov2010</item>
+        <item>dez2010</item>
+        <item>jan2011</item>
+        <item>fev2011</item>
+        <item>mar2011</item>
+        <item>abr2011</item>
+        <item>mai2011</item>
+        <item>jun2011</item>
+        <item>jul2011</item>
+        <item>ago2011</item>
+        <item>set2011</item>
+        <item>out2011</item>
+        <item>nov2011</item>
+        <item>dez2011</item>
+        <item>jan2012</item>
+        <item>fev2012</item>
+        <item>mar2012</item>
+        <item>abr2012</item>
+        <item>mai2012</item>
+        <item>jun2012</item>
+        <item>jul2012</item>
+        <item>ago2012</item>
+        <item>set2012</item>
+        <item>out2012</item>
+        <item>nov2012</item>
+        <item>dez2012</item>
+        <item>jan2013</item>
+        <item>fev2013</item>
+        <item>mar2013</item>
+        <item>abr2013</item>
+        <item>mai2013</item>
+        <item>jun2013</item>
+        <item>jul2013</item>
+        <item>ago2013</item>
+        <item>set2013</item>
+        <item>out2013</item>
+        <item>nov2013</item>
+        <item>dez2013</item>
+        <item>jan2014</item>
+        <item>fev2014</item>
+        <item>mar2014</item>
+        <item>abr2014</item>
+        <item>mai2014</item>
+        <item>jun2014</item>
+        <item>jul2014</item>
+        <item>ago2014</item>
+        <item>set2014</item>
+        <item>out2014</item>
+        <item>nov2014</item>
+        <item>dez2014</item>
+        <item>jan2015</item>
+        <item>fev2015</item>
+        <item>mar2015</item>
+        <item>abr2015</item>
+        <item>mai2015</item>
+        <item>jun2015</item>
+        <item>jul2015</item>
+        <item>ago2015</item>
+        <item>set2015</item>
+        <item>out2015</item>
+        <item>nov2015</item>
+        <item>dez2015</item>
+    </string-array>
+
+    <string-array name="inpc">
+        <item name="jan1999">0.65</item>
+        <item name="fev1999">1.29</item>
+        <item name="mar1999">1.28</item>
+        <item name="abr1999">0.47</item>
+        <item name="mai1999">0.05</item>
+        <item name="jun1999">0.07</item>
+        <item name="jul1999">0.74</item>
+        <item name="ago1999">0.55</item>
+        <item name="set1999">0.39</item>
+        <item name="out1999">0.96</item>
+        <item name="nov1999">0.94</item>
+        <item name="dez1999">0.74</item>
+        <item name="jan2000">0.61</item>
+        <item name="fev2000">0.05</item>
+        <item name="mar2000">0.13</item>
+        <item name="abr2000">0.09</item>
+        <item name="mai2000">-0.05</item>
+        <item name="jun2000">0.30</item>
+        <item name="jul2000">1.39</item>
+        <item name="ago2000">1.21</item>
+        <item name="set2000">0.43</item>
+        <item name="out2000">0.16</item>
+        <item name="nov2000">0.29</item>
+        <item name="dez2000">0.55</item>
+        <item name="jan2001">0.77</item>
+        <item name="fev2001">0.49</item>
+        <item name="mar2001">0.48</item>
+        <item name="abr2001">0.84</item>
+        <item name="mai2001">0.57</item>
+        <item name="jun2001">0.60</item>
+        <item name="jul2001">1.11</item>
+        <item name="ago2001">0.79</item>
+        <item name="set2001">0.44</item>
+        <item name="out2001">0.94</item>
+        <item name="nov2001">1.29</item>
+        <item name="dez2001">0.74</item>
+        <item name="jan2002">1.07</item>
+        <item name="fev2002">0.31</item>
+        <item name="mar2002">0.62</item>
+        <item name="abr2002">0.68</item>
+        <item name="mai2002">0.09</item>
+        <item name="jun2002">0.61</item>
+        <item name="jul2002">1.15</item>
+        <item name="ago2002">0.86</item>
+        <item name="set2002">0.83</item>
+        <item name="out2002">1.57</item>
+        <item name="nov2002">3.39</item>
+        <item name="dez2002">2.70</item>
+        <item name="jan2003">2.47</item>
+        <item name="fev2003">1.46</item>
+        <item name="mar2003">1.37</item>
+        <item name="abr2003">1.38</item>
+        <item name="mai2003">0.99</item>
+        <item name="jun2003">-0.06</item>
+        <item name="jul2003">0.04</item>
+        <item name="ago2003">0.18</item>
+        <item name="set2003">0.82</item>
+        <item name="out2003">0.39</item>
+        <item name="nov2003">0.37</item>
+        <item name="dez2003">0.54</item>
+        <item name="jan2004">0.83</item>
+        <item name="fev2004">0.39</item>
+        <item name="mar2004">0.57</item>
+        <item name="abr2004">0.41</item>
+        <item name="mai2004">0.40</item>
+        <item name="jun2004">0.50</item>
+        <item name="jul2004">0.73</item>
+        <item name="ago2004">0.50</item>
+        <item name="set2004">0.17</item>
+        <item name="out2004">0.17</item>
+        <item name="nov2004">0.44</item>
+        <item name="dez2004">0.86</item>
+        <item name="jan2005">0.57</item>
+        <item name="fev2005">0.44</item>
+        <item name="mar2005">0.73</item>
+        <item name="abr2005">0.91</item>
+        <item name="mai2005">0.70</item>
+        <item name="jun2005">-0.11</item>
+        <item name="jul2005">0.03</item>
+        <item name="ago2005">0.00</item>
+        <item name="set2005">0.15</item>
+        <item name="out2005">0.58</item>
+        <item name="nov2005">0.54</item>
+        <item name="dez2005">0.40</item>
+        <item name="jan2006">0.38</item>
+        <item name="fev2006">0.23</item>
+        <item name="mar2006">0.27</item>
+        <item name="abr2006">0.12</item>
+        <item name="mai2006">0.13</item>
+        <item name="jun2006">-0.07</item>
+        <item name="jul2006">0.11</item>
+        <item name="ago2006">-0.02</item>
+        <item name="set2006">0.16</item>
+        <item name="out2006">0.43</item>
+        <item name="nov2006">0.42</item>
+        <item name="dez2006">0.62</item>
+        <item name="jan2007">0.49</item>
+        <item name="fev2007">0.42</item>
+        <item name="mar2007">0.44</item>
+        <item name="abr2007">0.26</item>
+        <item name="mai2007">0.26</item>
+        <item name="jun2007">0.31</item>
+        <item name="jul2007">0.32</item>
+        <item name="ago2007">0.59</item>
+        <item name="set2007">0.25</item>
+        <item name="out2007">0.30</item>
+        <item name="nov2007">0.43</item>
+        <item name="dez2007">0.97</item>
+        <item name="jan2008">0.69</item>
+        <item name="fev2008">0.48</item>
+        <item name="mar2008">0.51</item>
+        <item name="abr2008">0.64</item>
+        <item name="mai2008">0.96</item>
+        <item name="jun2008">0.91</item>
+        <item name="jul2008">0.58</item>
+        <item name="ago2008">0.21</item>
+        <item name="set2008">0.15</item>
+        <item name="out2008">0.50</item>
+        <item name="nov2008">0.38</item>
+        <item name="dez2008">0.29</item>
+        <item name="jan2009">0.64</item>
+        <item name="fev2009">0.31</item>
+        <item name="mar2009">0.20</item>
+        <item name="abr2009">0.55</item>
+        <item name="mai2009">0.60</item>
+        <item name="jun2009">0.42</item>
+        <item name="jul2009">0.23</item>
+        <item name="ago2009">0.08</item>
+        <item name="set2009">0.16</item>
+        <item name="out2009">0.24</item>
+        <item name="nov2009">0.37</item>
+        <item name="dez2009">0.24</item>
+        <item name="jan2010">0.88</item>
+        <item name="fev2010">0.70</item>
+        <item name="mar2010">0.71</item>
+        <item name="abr2010">0.73</item>
+        <item name="mai2010">0.43</item>
+        <item name="jun2010">-0.11</item>
+        <item name="jul2010">-0.07</item>
+        <item name="ago2010">-0.07</item>
+        <item name="set2010">0.54</item>
+        <item name="out2010">0.92</item>
+        <item name="nov2010">1.03</item>
+        <item name="dez2010">0.60</item>
+        <item name="jan2011">0.94</item>
+        <item name="fev2011">0.54</item>
+        <item name="mar2011">0.66</item>
+        <item name="abr2011">0.72</item>
+        <item name="mai2011">0.57</item>
+        <item name="jun2011">0.22</item>
+        <item name="jul2011">0.00</item>
+        <item name="ago2011">0.42</item>
+        <item name="set2011">0.45</item>
+        <item name="out2011">0.32</item>
+        <item name="nov2011">0.57</item>
+        <item name="dez2011">0.51</item>
+        <item name="jan2012">0.51</item>
+        <item name="fev2012">0.39</item>
+        <item name="mar2012">0.18</item>
+        <item name="abr2012">0.64</item>
+        <item name="mai2012">0.55</item>
+        <item name="jun2012">0.26</item>
+        <item name="jul2012">0.43</item>
+        <item name="ago2012">0.45</item>
+        <item name="set2012">0.63</item>
+        <item name="out2012">0.71</item>
+        <item name="nov2012">0.54</item>
+        <item name="dez2012">0.74</item>
+        <item name="jan2013">0.92</item>
+        <item name="fev2013">0.52</item>
+        <item name="mar2013">0.60</item>
+        <item name="abr2013">0.59</item>
+        <item name="mai2013">0.35</item>
+        <item name="jun2013">0.28</item>
+        <item name="jul2013">-0.13</item>
+        <item name="ago2013">0.16</item>
+        <item name="set2013">0.27</item>
+        <item name="out2013">0.61</item>
+        <item name="nov2013">0.54</item>
+        <item name="dez2013">0.72</item>
+        <item name="jan2014">0.63</item>
+        <item name="fev2014">0.64</item>
+        <item name="mar2014">0.82</item>
+        <item name="abr2014">0.78</item>
+        <item name="mai2014">0.60</item>
+        <item name="jun2014">0.26</item>
+        <item name="jul2014">0.13</item>
+        <item name="ago2014">0.18</item>
+        <item name="set2014">0.49</item>
+        <item name="out2014">0.45</item>
+        <item name="nov2014">0.53</item>
+        <item name="dez2014">0.62</item>
+        <item name="jan2015">1.48</item>
+        <item name="fev2015">1.16</item>
+        <item name="mar2015">1.51</item>
+        <item name="abr2015">0.71</item>
+        <item name="mai2015">0.99</item>
+        <item name="jun2015">0.77</item>
+        <item name="jul2015">0.58</item>
+        <item name="ago2015">0.25</item>
+        <item name="set2015">0.51</item>
+        <item name="out2015">0.77</item>
+        <item name="nov2015">1.11</item>
+        <item name="dez2015">0.90</item>
+    </string-array>
+
+    <string-array name="tr">
+        <item name="jan1999">0.5163</item>
+        <item name="fev1999">0.8298</item>
+        <item name="mar1999">1.1614</item>
+        <item name="abr1999">0.6092</item>
+        <item name="mai1999">0.5761</item>
+        <item name="jun1999">0.3108</item>
+        <item name="jul1999">0.2933</item>
+        <item name="ago1999">0.2945</item>
+        <item name="set1999">0.2715</item>
+        <item name="out1999">0.2265</item>
+        <item name="nov1999">0.1998</item>
+        <item name="dez1999">0.2998</item>
+        <item name="jan2000">0.2149</item>
+        <item name="fev2000">0.2328</item>
+        <item name="mar2000">0.2242</item>
+        <item name="abr2000">0.1301</item>
+        <item name="mai2000">0.2492</item>
+        <item name="jun2000">0.2140</item>
+        <item name="jul2000">0.1547</item>
+        <item name="ago2000">0.2025</item>
+        <item name="set2000">0.1038</item>
+        <item name="out2000">0.1316</item>
+        <item name="nov2000">0.1197</item>
+        <item name="dez2000">0.0991</item>
+        <item name="jan2001">0.1369</item>
+        <item name="fev2001">0.0368</item>
+        <item name="mar2001">0.1724</item>
+        <item name="abr2001">0.1546</item>
+        <item name="mai2001">0.1827</item>
+        <item name="jun2001">0.1458</item>
+        <item name="jul2001">0.2441</item>
+        <item name="ago2001">0.3436</item>
+        <item name="set2001">0.1627</item>
+        <item name="out2001">0.2913</item>
+        <item name="nov2001">0.1928</item>
+        <item name="dez2001">0.1983</item>
+        <item name="jan2002">0.2591</item>
+        <item name="fev2002">0.1171</item>
+        <item name="mar2002">0.1758</item>
+        <item name="abr2002">0.2357</item>
+        <item name="mai2002">0.2102</item>
+        <item name="jun2002">0.1582</item>
+        <item name="jul2002">0.2656</item>
+        <item name="ago2002">0.2481</item>
+        <item name="set2002">0.1955</item>
+        <item name="out2002">0.2768</item>
+        <item name="nov2002">0.2644</item>
+        <item name="dez2002">0.3609</item>
+        <item name="jan2003">0.4878</item>
+        <item name="fev2003">0.4116</item>
+        <item name="mar2003">0.3782</item>
+        <item name="abr2003">0.4184</item>
+        <item name="mai2003">0.4650</item>
+        <item name="jun2003">0.4166</item>
+        <item name="jul2003">0.5465</item>
+        <item name="ago2003">0.4038</item>
+        <item name="set2003">0.3364</item>
+        <item name="out2003">0.3213</item>
+        <item name="nov2003">0.1776</item>
+        <item name="dez2003">0.1899</item>
+        <item name="jan2004">0.1280</item>
+        <item name="fev2004">0.0458</item>
+        <item name="mar2004">0.1778</item>
+        <item name="abr2004">0.0874</item>
+        <item name="mai2004">0.1546</item>
+        <item name="jun2004">0.1761</item>
+        <item name="jul2004">0.1952</item>
+        <item name="ago2004">0.2005</item>
+        <item name="set2004">0.1728</item>
+        <item name="out2004">0.1108</item>
+        <item name="nov2004">0.1146</item>
+        <item name="dez2004">0.2400</item>
+        <item name="jan2005">0.1880</item>
+        <item name="fev2005">0.0962</item>
+        <item name="mar2005">0.2635</item>
+        <item name="abr2005">0.2003</item>
+        <item name="mai2005">0.2527</item>
+        <item name="jun2005">0.2993</item>
+        <item name="jul2005">0.2575</item>
+        <item name="ago2005">0.3466</item>
+        <item name="set2005">0.2637</item>
+        <item name="out2005">0.2100</item>
+        <item name="nov2005">0.1929</item>
+        <item name="dez2005">0.2269</item>
+        <item name="jan2006">0.2326</item>
+        <item name="fev2006">0.0725</item>
+        <item name="mar2006">0.2073</item>
+        <item name="abr2006">0.0855</item>
+        <item name="mai2006">0.1888</item>
+        <item name="jun2006">0.1937</item>
+        <item name="jul2006">0.1751</item>
+        <item name="ago2006">0.2436</item>
+        <item name="set2006">0.1521</item>
+        <item name="out2006">0.1875</item>
+        <item name="nov2006">0.1282</item>
+        <item name="dez2006">0.1522</item>
+        <item name="jan2007">0.2189</item>
+        <item name="fev2007">0.0721</item>
+        <item name="mar2007">0.1876</item>
+        <item name="abr2007">0.1272</item>
+        <item name="mai2007">0.1689</item>
+        <item name="jun2007">0.0954</item>
+        <item name="jul2007">0.1469</item>
+        <item name="ago2007">0.1466</item>
+        <item name="set2007">0.0352</item>
+        <item name="out2007">0.1142</item>
+        <item name="nov2007">0.0590</item>
+        <item name="dez2007">0.0640</item>
+        <item name="jan2008">0.1010</item>
+        <item name="fev2008">0.0243</item>
+        <item name="mar2008">0.0409</item>
+        <item name="abr2008">0.0955</item>
+        <item name="mai2008">0.0736</item>
+        <item name="jun2008">0.1146</item>
+        <item name="jul2008">0.1914</item>
+        <item name="ago2008">0.1574</item>
+        <item name="set2008">0.1970</item>
+        <item name="out2008">0.2506</item>
+        <item name="nov2008">0.1618</item>
+        <item name="dez2008">0.2149</item>
+        <item name="jan2009">0.1840</item>
+        <item name="fev2009">0.0451</item>
+        <item name="mar2009">0.1438</item>
+        <item name="abr2009">0.0454</item>
+        <item name="mai2009">0.0449</item>
+        <item name="jun2009">0.0656</item>
+        <item name="jul2009">0.1051</item>
+        <item name="ago2009">0.0197</item>
+        <item name="set2009">0.0000</item>
+        <item name="out2009">0.0000</item>
+        <item name="nov2009">0.0000</item>
+        <item name="dez2009">0.0533</item>
+        <item name="jan2010">0.0000</item>
+        <item name="fev2010">0.0000</item>
+        <item name="mar2010">0.0792</item>
+        <item name="abr2010">0.0000</item>
+        <item name="mai2010">0.0510</item>
+        <item name="jun2010">0.0589</item>
+        <item name="jul2010">0.1151</item>
+        <item name="ago2010">0.0909</item>
+        <item name="set2010">0.0702</item>
+        <item name="out2010">0.0472</item>
+        <item name="nov2010">0.0336</item>
+        <item name="dez2010">0.1406</item>
+        <item name="jan2011">0.0715</item>
+        <item name="fev2011">0.0524</item>
+        <item name="mar2011">0.1212</item>
+        <item name="abr2011">0.0369</item>
+        <item name="mai2011">0.1570</item>
+        <item name="jun2011">0.1114</item>
+        <item name="jul2011">0.1229</item>
+        <item name="ago2011">0.2076</item>
+        <item name="set2011">0.1003</item>
+        <item name="out2011">0.0620</item>
+        <item name="nov2011">0.0645</item>
+        <item name="dez2011">0.0937</item>
+        <item name="jan2012">0.0864</item>
+        <item name="fev2012">0.0000</item>
+        <item name="mar2012">0.1068</item>
+        <item name="abr2012">0.0227</item>
+        <item name="mai2012">0.0468</item>
+        <item name="jun2012">0.0000</item>
+        <item name="jul2012">0.0144</item>
+        <item name="ago2012">0.0123</item>
+        <item name="set2012">0.0000</item>
+        <item name="out2012">0.0000</item>
+        <item name="nov2012">0.0000</item>
+        <item name="dez2012">0.0000</item>
+        <item name="jan2013">0.0000</item>
+        <item name="fev2013">0.0000</item>
+        <item name="mar2013">0.0000</item>
+        <item name="abr2013">0.0000</item>
+        <item name="mai2013">0.0000</item>
+        <item name="jun2013">0.0000</item>
+        <item name="jul2013">0.0209</item>
+        <item name="ago2013">0.0000</item>
+        <item name="set2013">0.0079</item>
+        <item name="out2013">0.0920</item>
+        <item name="nov2013">0.0207</item>
+        <item name="dez2013">0.0494</item>
+        <item name="jan2014">0.1126</item>
+        <item name="fev2014">0.0537</item>
+        <item name="mar2014">0.0266</item>
+        <item name="abr2014">0.0459</item>
+        <item name="mai2014">0.0604</item>
+        <item name="jun2014">0.0465</item>
+        <item name="jul2014">0.1054</item>
+        <item name="ago2014">0.0602</item>
+        <item name="set2014">0.0873</item>
+        <item name="out2014">0.1038</item>
+        <item name="nov2014">0.0483</item>
+        <item name="dez2014">0.1053</item>
+        <item name="jan2015">0.0878</item>
+        <item name="fev2015">0.0168</item>
+        <item name="mar2015">0.1296</item>
+        <item name="abr2015">0.1074</item>
+        <item name="mai2015">0.1153</item>
+        <item name="jun2015">0.1813</item>
+        <item name="jul2015">0.2305</item>
+        <item name="ago2015">0.1867</item>
+        <item name="set2015">0.1920</item>
+        <item name="out2015">0.1790</item>
+        <item name="nov2015">0.1297</item>
+        <item name="dez2015">0.2250</item>
+    </string-array>
+</resources>
